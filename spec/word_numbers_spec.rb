@@ -10,4 +10,8 @@ describe('Fixnum#word_numbers') do
     expect((17).word_numbers()).to(eq('seventeen'))
   end
 
+  it('return the correct word version of the input number between 20 and 90, that is a multiple of 10') do
+    expect((80).word_numbers()).to(eq('eighty'))
+  end
+
 end
